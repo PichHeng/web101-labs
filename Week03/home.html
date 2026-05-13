@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+</head>
+<body>
+   
+   <nav>
+      <ul>
+         <h1>Welcome to home page.</h1>
+         <p> by click the link below you can go to profile page and contact page</p>
+         <li><a href="profile.html">Profile PAGE</a></li>
+         <li><a href="contect.html">Contact Page</a></li>
+      </ul>
+   </nav>
+
+   <section class="form-section">
+      <form action="/submit" method="post">
+         <label for="name">Your Name</label>
+         <input id="name" type="text" name="name" required>
+         <br>
+         <label for="email">Your Email</label>
+         <input id="email" type="email" name="email" required>
+         <br>
+         <label for="topic">Type</label>
+         <select id="topic" name="topic">
+            <option value="sales">Sales</option>
+            <option value="support">Support</option>
+         </select>
+         <br>
+         <br>
+         <label for="msg">Message</label>
+         <textarea rows="3" id="msg" name="msg"></textarea>
+      </form>
+   </section>
+
+</body>
+</html>
